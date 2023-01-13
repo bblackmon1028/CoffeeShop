@@ -23,30 +23,40 @@ namespace CoffeeShop.Controllers
             {
                 Id = 2,
                 Name = "Latte",
+                Description = "Two shots of espresso, steamed milk, and froth milk on top",
+                Category = "Drink",
                 Price = 4.50
             };
             ProductViewModel productThree = new ProductViewModel()
             {
                 Id = 3,
                 Name = "Bagel",
+                Description = "Warm, toasted bagel with cream cheese spread",
+                Category = "Food",
                 Price = 2.50
             };
             ProductViewModel productFour = new ProductViewModel()
             {
                 Id = 4,
                 Name = "Espresso Shot",
+                Description = "Single servicing of espresso at standard strength",
+                Category = "Drink",
                 Price = 1.25
             };
             ProductViewModel productFive = new ProductViewModel()
             {
                 Id = 5,
                 Name = "Hot Coffee",
+                Description = "Hot drink made with water and ground coffee beans",
+                Category = "Drink",
                 Price = 2.75
             };
             ProductViewModel productSix = new ProductViewModel()
             {
                 Id = 6,
                 Name = "Iced Coffee",
+                Description = "Cold drink made with water, ice and ground coffee beans",
+                Category = "Drink",
                 Price = 2.75
             };
             _products.Add(productOne);
